@@ -2,8 +2,8 @@
 - name: Gather facts to populate hostvars
   hosts: Windows
 
-- name: Configure the win2 host
-  hosts: win2.example.com
+- name: Configure the win1 host
+  hosts: win1.example.com
   gather_facts: no
   vars:
     etc_dir: 'C:\Windows\System32\drivers\etc'
